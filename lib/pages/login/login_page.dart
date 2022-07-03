@@ -16,12 +16,12 @@ class LoginPage extends StatelessWidget {
               child: Image.asset("images/login.png"),
             ),
             InputWidget(
-              textHint: "Enter Username",
+              textHint: "ชื่อผู้ใช้",
               icon: Icons.person,
             ),
             SizedBox(height: 20),
             InputWidget(
-              textHint: "Enter Password",
+              textHint: "รหัสผ่าน",
               icon: Icons.lock,
             ),
             SizedBox(height: 10),
