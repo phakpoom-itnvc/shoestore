@@ -85,7 +85,9 @@ class LoginPage extends StatelessWidget {
                   ),
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    // กดแล้วเปลี่ยนไปหน้า Sign up
+                  },
                   child: Text(
                     "Sign up",
                     style: TextStyle(
